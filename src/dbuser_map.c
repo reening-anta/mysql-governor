@@ -35,7 +35,7 @@ pthread_rwlock_t map_rw_lock = PTHREAD_RWLOCK_INITIALIZER;
 void
 trim (char *s)
 {
-  char d[50];
+  char d[65];
   int i, j;
   for (i = j = 0; s[i] != '\0'; i++)
     if (s[i] != ' ' && s[i] != '\n')
